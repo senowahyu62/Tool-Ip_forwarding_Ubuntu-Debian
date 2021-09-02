@@ -1,6 +1,6 @@
 # Tool-Ip_forwarding_Ubuntu-Debian
 Cara Setup
->wget -O /usr/bin/ipfrwd https://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/ipfrwd && chmod +x /usr/bin/ipfrwd
+>wget -O /usr/bin/ipfrwd http://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/ipfrwd && chmod +x /usr/bin/ipfrwd
 
 
 
@@ -10,3 +10,5 @@ Cara Pakai
 
 
 Telegram : @senowahyu62
+
+
