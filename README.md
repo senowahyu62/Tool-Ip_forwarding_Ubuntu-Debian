@@ -6,3 +6,7 @@ Cara Setup
 
 Cara Pakai
 >ipfrwd
+
+
+
+Telegram : @senowahyu62
