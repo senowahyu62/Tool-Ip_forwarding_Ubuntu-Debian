@@ -10,6 +10,9 @@ echo ""
 echo "Masukkan Angka 1 Sampai 4"
 read  pilihan
 #menu1
+#menu1
+#menu1
+#menu1
 if [ $pilihan = 1 ]
 then
 clear
@@ -24,11 +27,14 @@ iptables -t nat -A POSTROUTING -j MASQUERADE
 sysctl -p
 ipfrwd
 #menu2
+#menu2
+#menu2
+#menu2
 elif [ $pilihan == 2 ]
 then
 clear
 echo "Cek Forwarding Dan Ip Tables"
-iptables -L
+iptables -t nat --list --line-numbers
 echo "Tekan 1 Untuk ke menu Utama / Tekan Sembarang Untuk Exit"
 read kemenu
 if [ $kemenu == 1 ] 
@@ -38,6 +44,9 @@ else
 	exit
 fi
 #menu3
+#menu3
+#menu3
+#menu3
 elif [ $pilihan == 3 ]
 then
 clear
@@ -45,11 +54,14 @@ echo "Hapus Rules Di Iptables "
 echo "Hapus Semua Rules Dengan cara Ketik iptable -F"
 echo "Tekan Enter Dan Ikuti Petunjuk Di Bawah Untuk Hapus 1 Rules"
 read xxx
-iptables -L --line-numbers
+iptables -t nat --list --line-numbers
 echo "Silahkan Amati Tabel Di Atas!!Amati Nomer Baris Dan Ip"
 echo "Silahkan Masukan Baris Yang Mau Di Hapus"
-read nomerberapa
-iptables -D FORWARD $nomerberapa
+read nnat
+iptables -D nat $nnat
+#menu4
+#menu4
+#menu4
 #menu4
 elif [ $pilihan == 4 ]
 then
