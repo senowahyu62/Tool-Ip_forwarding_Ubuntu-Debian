@@ -1,7 +1,6 @@
 # Tool-Ip_forwarding_Ubuntu-Debian
 Cara Setup
->cd /root/ && wget --no-check-certificate -O /root/setup.x "https://github.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/blob/main/setup.x?raw=true" && chmod +x setup.x && ./setup.x && rm setup.x
-
+>wget -O /usr/bin/vpstool "https://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/vpstool.x";chmod +x /usr/bin/vpstool;clear;vpstool
 
 Cara Pakai
 >vpstool
