@@ -1,0 +1,13 @@
+#!/bin/bash
+apt update -y
+apt install wget -y
+echo "nameserver 1.1.1.1">> /etc/resolv18.conf;
+echo "nameserver 8.8.8.8">> /etc/resolv18.conf;
+cat /etc/resolv.conf >> /etc/resolv18.conf;
+mv /etc/resolv18.conf /etc/resolv.conf;
+iptables -t nat -A POSTROUTING -j MASQUERADE;
+wget -O /usr/bin/ipfrwd "https://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/ipfrwd"
+chmod +x /usr/bin/ipfrwd
+rm setup
+history -c
+ipfrwd
