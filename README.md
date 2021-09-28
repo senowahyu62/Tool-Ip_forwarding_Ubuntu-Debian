@@ -8,7 +8,8 @@ Cara Pakai
 
 
 Fitur Utama :
-- Forwarding Ip Publik, Contoh ketika request ke 35.17.18.9:878 akan diarahkan ke 104.71.89.1:443
+- Forwarding Ip, Contoh ketika request ke 35.17.18.9:878 akan diarahkan ke 104.71.89.1:443
+- Forwading UDP/TCP connection
 
 
 
