@@ -1,9 +1,21 @@
 # Tool-Ip_forwarding_Ubuntu-Debian
-Cara Setup
->apt update -y&& apt install wget -y && wget -O setup "https://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/setup" && bash setup
-
-Cara Pakai
->ipfrwd
+__Cara Setup__
+```
+apt update -y
+```
+```
+apt install wget -y
+```
+```
+wget -O setup "https://raw.githubusercontent.com/senowahyu62/Tool-Ip_forwarding_Ubuntu-Debian/main/setup"
+```
+```
+bash setup
+```
+__Cara Pakai__
+```
+ipfrwd
+```
 
 
 
