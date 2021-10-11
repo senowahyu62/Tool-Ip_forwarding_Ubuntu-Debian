@@ -30,3 +30,9 @@ Fitur Utama :
 Telegram : @senowahyu62
 
 
+
+
+
+Tag:
+cara forward ip seperti fastssh
+cara forward ip nat vmess vless trojan ssh
